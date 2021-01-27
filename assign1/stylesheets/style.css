@@ -1,0 +1,25 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbarDesktop {
+  background-color: black;
+  padding: 20px;
+}
+
+.name {
+  display: inline;
+  font-size: 20pt;
+  color: wheat;
+}
+
+.navcontainer {
+  width: 80%;
+  margin: auto;
+}
+
+.navButtons {
+  color: wheat;
+  display: inline;
+  float: right;
+}
