@@ -2,24 +2,38 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.navbarDesktop {
+#navbarDesktop {
   background-color: black;
   padding: 20px;
 }
 
-.name {
+#name {
   display: inline;
   font-size: 20pt;
   color: wheat;
 }
 
-.navcontainer {
-  width: 80%;
+#navcontainer {
+  width: 70%;
   margin: auto;
 }
 
-.navButtons {
+#navButtons {
+  padding: 9px;
   color: wheat;
   display: inline;
   float: right;
+}
+
+#blockOne {
+  height: calc(100vh - 98px);
+  margin: auto;
+  width: 70%;
+}
+
+#videoContainer {
+}
+
+#video {
+  width: 100%;
 }
