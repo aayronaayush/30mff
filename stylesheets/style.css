@@ -1,0 +1,63 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbarDesktop {
+  position: fixed;
+  top: 0;
+  /* z-index: 10; */
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+}
+
+#navcontainer {
+  width: 70%;
+  margin: auto;
+}
+
+#navButtons {
+  padding: 10px;
+  margin-right: 10px;
+  color: wheat;
+  display: inline;
+  float: right;
+}
+
+#name {
+  display: inline;
+  font-size: 20pt;
+  color: wheat;
+}
+
+.block {
+  height: calc(100vh);
+  margin: auto;
+  width: 70%;
+  border: 2px solid red;
+}
+
+#videoContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#video {
+  width: 100%;
+}
+
+.content {
+  text-align: center;
+  font-size: 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
