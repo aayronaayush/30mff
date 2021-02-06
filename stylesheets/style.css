@@ -1,5 +1,9 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #navbarDesktop {
@@ -34,7 +38,7 @@ body {
   height: calc(100vh);
   margin: auto;
   width: 70%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 #videoContainer {
