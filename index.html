@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>30MFF</title>
@@ -11,16 +11,16 @@
 <body>
     <div id="navbarDesktop">
         <div id="navcontainer">
-            <div id="name"><a href="/">30MFF</a></div>
+            <div id="name"><a href="#videoBlock">30MFF</a></div>
             <div id="navButtons">
-                <a href="#plot">Plot</a>
-                <a href="#crew">Crew</a>
-                <a href="#gear">Gear</a>
-                <a href="#about">About</a>
+                <a id="plotNavButton" href="#plot">Plot</a>
+                <a id="crewNavButton" href="#crew">Crew</a>
+                <a id="gearNavButton" href="#gear">Gear</a>
+                <a id="aboutNavButton" href="#about">About</a>
             </div>
         </div>
     </div>
-    <div class="block">
+    <div id="videoBlock" class="block">
         <div id="videoContainer">
             <video id="video" controls>
                 <source src="https://www.commlab.nyuadim.com/MangS21/Morning_Routine.mp4" type="">
