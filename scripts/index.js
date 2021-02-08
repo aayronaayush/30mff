@@ -6,7 +6,7 @@ const gearBlock = document.getElementById("gear")
 const aboutBlock = document.getElementById("about")
 
 // nav bar items
-const home = document.getElementById("name")
+const videoNavButton = document.getElementById("videoNavButton")
 const plotNavButton = document.getElementById("plotNavButton")
 const crewNavButton = document.getElementById("crewNavButton")
 const gearNavButton = document.getElementById("gearNavButton")
@@ -21,7 +21,7 @@ aboutBlock.style.display = "none"
 const pageElements = {
     video: {
         block: videoBlock,
-        nav: home
+        nav: videoNavButton
     },
     plot: {
         block: plotBlock,
