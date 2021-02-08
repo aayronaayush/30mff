@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: white;
 }
 
 #navbarDesktop {
@@ -64,4 +65,9 @@ body {
 
 h1 {
   text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
 }
