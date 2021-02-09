@@ -70,3 +70,50 @@ a {
   text-decoration: none;
   color: wheat;
 }
+
+.crewImageContainer {
+  width: 30%;
+  margin: 30px;
+}
+
+.crewImage {
+  width: 100%;
+}
+
+.crewImages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.crewInfo {
+  display: none;
+}
+.name {
+  font-size: 24px;
+}
+
+.major {
+  font-size: 21px;
+}
+
+.class {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 620px) {
+  .crewImages {
+    display: block;
+    text-align: center;
+  }
+
+  .crewImageContainer {
+    width: 50%;
+    margin: auto;
+  }
+
+  #navbarDesktop {
+    position: static;
+  }
+}

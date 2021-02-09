@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stylesheets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/favicon/favicon-32x32.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <title>30MFF</title>
 </head>
 <body>
     <div id="navbarDesktop">
         <div id="navcontainer">
-            <div id="name"><a href="/30mff">30MFF</a></div>
+            <div id="name"><a href="/30mff">Triple A Team</a></div>
             <div id="navButtons">
                 <a id="videoNavButton" href="#videoBlock">Movie</a>
                 <a id="plotNavButton" href="#plot">Plot</a>
@@ -39,19 +40,33 @@
     <div id="crew" class="block">
       <div class="content">
         <h1>Crew</h1>
-        <div id="aayush">
-            <img src="aayush" alt="">
-            <h4>Aayush</h4>
-        </div>
-
-        <div id="alia">
-            <img src="alia" alt="">
-            <h4>Alia</h4>
-        </div>
-
-        <div id="ali">
-            <img src="ali" alt="">
-            <h4>Ali</h4>
+        <div class="crewImages">
+          <div class="crewImageContainer" id="aayush">
+            <img class="crewImage" src="./images/aayush.png" alt="Aayush Headshot">
+            <div class="crewInfo">
+              <span class="name">Aayush Aayron Deo</span> <br>
+              <span class="major">Computer Science</span> <br>
+              <span class="class">NYUAD '22</span>
+            </div>
+          </div>
+          
+          <div class="crewImageContainer" id="alia">
+            <img class="crewImage" src="./images/alia.png" alt="Alia Headshot">
+            <div class="crewInfo">
+              <span class="name">Alia Waleed</span> <br>
+              <span class="major">Computer Science</span> <br>
+              <span class="class">NYUAD '23</span>
+            </div>
+          </div>
+          
+          <div class="crewImageContainer" id="ali">
+            <img class="crewImage" src="./images/ali.png" alt="Ali Headshot">
+            <div class="crewInfo">
+              <span class="name">Ali Bahrami</span> <br>
+              <span class="major">Economics</span> <br>
+              <span class="class">NYUAD '21</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -80,6 +95,7 @@
     </div>
 
 
-    <script src="./scripts/index.js"></script>
+    <script src="./scripts/nav.js"></script>
+    <script src="./scripts/crew.js"></script>
 </body>
 </html>
