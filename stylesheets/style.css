@@ -38,7 +38,6 @@ body {
   height: calc(100vh);
   margin: auto;
   width: 70%;
-  /* border: 2px solid red; */
 }
 
 #videoContainer {
@@ -111,9 +110,5 @@ a {
   .crewImageContainer {
     width: 50%;
     margin: auto;
-  }
-
-  #navbarDesktop {
-    position: static;
   }
 }
