@@ -46,7 +46,7 @@ Object.keys(pageElements).forEach(pageElement => {
 
 // change display style of display block
 const contentBlockDisplay = (target) => {
-    console.clear()
+    // console.clear()
     Object.keys(pageElements).forEach(element => {
         if (element === target) { // the display style of "select" block to block ie make it visible
             pageElements[element].block.style.display = "block"
